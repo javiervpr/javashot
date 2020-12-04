@@ -47,7 +47,6 @@ export class PuntosComponent implements OnInit, OnDestroy {
     });
     this.store.dispatch(cargarPuntosPersona({usuarioID: this.usuarioEnSesion.usuarioID}));
     this.store.dispatch(cargarListaPuntos());
-    
   }
 
   ngOnDestroy(): void {

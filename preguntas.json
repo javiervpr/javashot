@@ -1,216 +1,284 @@
-
 [
-    // PREGUNTA #1 ====================================================
     {
-        "Titulo": "¿Cuál es el resultado de esta asignación? <br> int resultado = 5 - 8",
-        "Respuestas": [
+        "titulo": "¿Cuál es el resultado de esta asignación? <br> int resultado = 5 + 8",
+        "explicacionRespuesta": "<h5>Respuesta</h5><br><p>Aqui va respuesta</p>",
+        "respuestas": [
             {
-                "Contenido": "-3",
-                "Correcta": true
+                "contenido": "-3",
+                "correcta": false
             },
             {
-                "Contenido": "3",
-                "Correcta": false
+                "contenido": "13",
+                "correcta": true
             },
             {
-                "Contenido": "RuntimeException",
-                "Correcta": false
+                "contenido": "RuntimeException",
+                "correcta": false
             },
             {
-                "Contenido": "NumberFormatException",
-                "Correcta": false
+                "contenido": "NumberFormatException",
+                "correcta": false
             }
         ]
     },
-    // PREGUNTA #2 ====================================================
     {
-        "Titulo": "¿En el lenguaje de programación Java se puede aplicar polimorfismo?",
-        "Respuestas": [
+        "titulo": "¿En el lenguaje de programación Java se puede aplicar polimorfismo?",
+        "explicacionRespuesta": "<p>En programación orientada a objetos, el polimorfismo se refiere a la propiedad por la que es posible enviar mensajes sintácticamente iguales a objetos de tipos distintos. El único requisito que deben cumplir los objetos que se utilizan de manera polimórfica es saber responder al mensaje que se les envía</p>",
+        "respuestas": [
             {
-                "Contenido": "Verdadero",
-                "Correcta": true
+                "contenido": "Verdadero",
+                "correcta": true
             },
             {
-                "Contenido": "Falso",
-                "Correcta": false
+                "contenido": "Falso",
+                "correcta": false
             }
         ]
     },
-    // PREGUNTA #3 ====================================================
     {
-        "Titulo": "3 ¿Cuál es el resultado de este metodo? <br> <>",
-        "Respuestas": [
+        "titulo": "¿En el lenguaje de programación Java permite sobrecargar metodos?",
+        "explicacionRespuesta": "<p>Sobrecarga es la capacidad de un lenguaje de programación, que permite nombrar con el mismo identificador diferentes variables u operaciones. En programación orientada a objetos la sobrecarga se refiere a la posibilidad de tener dos o más funciones con el mismo nombre pero funcionalidad diferente. </p>",
+        "respuestas": [
             {
-                "Contenido": "-3",
-                "Correcta": false
+                "contenido": "Falso",
+                "correcta": false
             },
             {
-                "Contenido": "3",
-                "Correcta": false
-            },
-            {
-                "Contenido": "RuntimeException",
-                "Correcta": false
-            },
-            {
-                "Contenido": "NumberFormatException",
-                "Correcta": true
+                "contenido": "Verdadero",
+                "correcta": true
             }
         ]
     },
-    // PREGUNTA #4 ====================================================
     {
-        "Titulo": "4 ¿Cuál es el resultado de? <br> int resultado = 5 - 8",
-        "Respuestas": [
+        "titulo": "¿En el lenguaje de programación Java permite sobreescribir metodos?",
+        "explicacionRespuesta": "<p>La herencia permite crear subclases que contienen todos los atributos y métodos privados de la clase superior. Habitualmente en la subclase se deﬁnirán, además, atributos y métodos propios que no existían en la superclase. En ocasiones, además interesa que la subclase modiﬁque alguno de los métodos heredados para que tengan un comportamiento distinto. Esto se realiza mediante la sobreescritura de metodos. Simplemente consiste en implementar en la subclase un método que ya existía en la superclase.</p>",
+        "respuestas": [
             {
-                "Contenido": "-3",
-                "Correcta": false
+                "contenido": "Falso",
+                "correcta": false
             },
             {
-                "Contenido": "3",
-                "Correcta": false
-            },
-            {
-                "Contenido": "RuntimeException",
-                "Correcta": true
-            },
-            {
-                "Contenido": "NumberFormatException",
-                "Correcta": false
+                "contenido": "Verdadero",
+                "correcta": true
             }
         ]
     },
-    // PREGUNTA #5 ====================================================
     {
-        "Titulo": "5 ¿Cuál es el resultado de esta asignación? <br> int resultado = 5 - 8",
-        "Respuestas": [
+        "titulo": "¿Que error produciria un ciclo infinito?",
+        "explicacionRespuesta": "<p>StackOverflowException se produce para los errores de desbordamiento de la pila de ejecución, normalmente en el caso de una recursividad muy profunda o sin enlazar. ... Por lo tanto, asegúrese de que el código no tiene un bucle infinito o una recursividad infinita. La clase RuntimeException representa las excepciones que ocurren dentro de la máquina virtual Java (durante el tiempo de ejecución). Un ejemplo de estas excepciones es NullPointerException, que ocurre cuando un método intenta acceder a un miembro de un objeto a través de una referencia nula.</p>",
+        "respuestas": [
             {
-                "Contenido": "-3",
-                "Correcta": true
+                "contenido": "RunTimeException",
+                "correcta": false
             },
             {
-                "Contenido": "3",
-                "Correcta": false
-            },
-            {
-                "Contenido": "RuntimeException",
-                "Correcta": false
-            },
-            {
-                "Contenido": "NumberFormatException",
-                "Correcta": false
+                "contenido": "StackOverFlow",
+                "correcta": true
             }
         ]
     },
-    // PREGUNTA #6 ====================================================
     {
-        "Titulo": "6 ¿Cuál es el resultado de esta asignación? <br> int resultado = 5 - 8",
-        "Respuestas": [
+        "titulo": "¿El lenguaje de programación java es de tipado fuerte?",
+        "explicacionRespuesta": "<p>Un lenguaje de programación es fuertemente tipado si no se permiten violaciones de los tipos de datos, es decir, dado el valor de una variable de un tipo concreto, no se puede usar como si fuera de otro tipo distinto a menos que se haga una conversión. No hay una única definición de este término.</p>",
+        "respuestas": [
             {
-                "Contenido": "-3",
-                "Correcta": true
+                "contenido": "Falso",
+                "correcta": false
             },
             {
-                "Contenido": "3",
-                "Correcta": false
-            },
-            {
-                "Contenido": "RuntimeException",
-                "Correcta": false
-            },
-            {
-                "Contenido": "NumberFormatException",
-                "Correcta": false
+                "contenido": "Verdadero",
+                "correcta": true
             }
         ]
     },
-    // PREGUNTA #7 ====================================================
     {
-        "Titulo": "7 ¿Cuál es el resultado de esta asignación? <br> int resultado = 5 - 8",
-        "Respuestas": [
+        "titulo": "¿Que error produce el utilizar un objeto sin instanciarlo?",
+        "explicacionRespuesta": "<p>Una instancia es la particularización, realización específica u ocurrencia de una determinada clase, entidad o prototipo. En los lenguajes de programación orientada a objetos un objeto es una instancia de una clase. Esto es, un miembro de una clase que tiene atributos en lugar de variables.</p>",
+        "respuestas": [
             {
-                "Contenido": "-3",
-                "Correcta": true
+                "contenido": "StackOverflow",
+                "correcta": false
             },
             {
-                "Contenido": "3",
-                "Correcta": false
-            },
-            {
-                "Contenido": "RuntimeException",
-                "Correcta": false
-            },
-            {
-                "Contenido": "NumberFormatException",
-                "Correcta": false
+                "contenido": "NullPointerException",
+                "correcta": true
             }
         ]
     },
-    // PREGUNTA #8 ====================================================
     {
-        "Titulo": "8 ¿Cuál es el resultado de esta asignación? <br> int resultado = 5 - 8",
-        "Respuestas": [
+        "titulo": "¿Cuál es el resultado de esta asignación? <br> int hola =((5 + 8) == true) ? 10 :10 ;",
+        "explicacionRespuesta": "<p>Buena suerte</p>",
+        "respuestas": [
             {
-                "Contenido": "-3",
-                "Correcta": false
+                "contenido": "-3",
+                "correcta": false
             },
             {
-                "Contenido": "3",
-                "Correcta": false
+                "contenido": "No Compila",
+                "correcta": true
             },
             {
-                "Contenido": "RuntimeException",
-                "Correcta": true
+                "contenido": "RuntimeException",
+                "correcta": false
             },
             {
-                "Contenido": "NumberFormatException",
-                "Correcta": false
+                "contenido": "NumberFormatException",
+                "correcta": false
             }
         ]
     },
-    // PREGUNTA #9 ====================================================
     {
-        "Titulo": "9 ¿Cuál es el resultado de esta asignación? <br> int resultado = 5 - 8",
-        "Respuestas": [
+        "titulo": "¿Cuál es el resultado de esta asignación? <br> int resultado = 5 - 8",
+        "explicacionRespuesta": "<h5>Respuesta</h5><br><p>Aqui va respuesta</p>",
+        "respuestas": [
             {
-                "Contenido": "-3",
-                "Correcta": false
+                "contenido": "-3",
+                "correcta": true
             },
             {
-                "Contenido": "3",
-                "Correcta": false
+                "contenido": "13",
+                "correcta": false
             },
             {
-                "Contenido": "RuntimeException",
-                "Correcta": true
+                "contenido": "RuntimeException",
+                "correcta": false
             },
             {
-                "Contenido": "NumberFormatException",
-                "Correcta": false
+                "contenido": "NumberFormatException",
+                "correcta": false
             }
         ]
     },
-    // PREGUNTA #10 ====================================================
     {
-        "Titulo": "10 ¿Cuál es el METODO de esta asignación?",
-        "Respuestas": [
+        "titulo": "¿Cuál es el resultado de esta asignación? <br> String resultado = 5 + 8",
+        "explicacionRespuesta": "<p>Aqui va una ayuda</p>",
+        "respuestas": [
             {
-                "Contenido": "-3",
-                "Correcta": true
+                "contenido": "13",
+                "correcta": false
             },
             {
-                "Contenido": "3",
-                "Correcta": false
+                "contenido": "No compila",
+                "correcta": true
             },
             {
-                "Contenido": "RuntimeException",
-                "Correcta": false
+                "contenido": "RuntimeException",
+                "correcta": false
             },
             {
-                "Contenido": "NumberFormatException",
-                "Correcta": false
+                "contenido": "NumberFormatException",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "titulo": "¿Cuál es el resultado de esta asignación? <br> int resultado = 5 + 5",
+        "explicacionRespuesta": "<p>Aqui va una ayuda</p>",
+        "respuestas": [
+            {
+                "contenido": "10",
+                "correcta": true
+            },
+            {
+                "contenido": "No compila",
+                "correcta": false
+            },
+            {
+                "contenido": "RuntimeException",
+                "correcta": false
+            },
+            {
+                "contenido": "NumberFormatException",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "titulo": "¿Cuál es el resultado de esta asignación? <br> int resultado = 15 + 5",
+        "explicacionRespuesta": "<p>Aqui va una ayuda</p>",
+        "respuestas": [
+            {
+                "contenido": "20",
+                "correcta": true
+            },
+            {
+                "contenido": "No compila",
+                "correcta": false
+            },
+            {
+                "contenido": "RuntimeException",
+                "correcta": false
+            },
+            {
+                "contenido": "NumberFormatException",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "titulo": "¿Cuál es el resultado de esta asignación? <br> int resultado = 15 - 5",
+        "explicacionRespuesta": "<p>Aqui va una ayuda</p>",
+        "respuestas": [
+            {
+                "contenido": "10",
+                "correcta": true
+            },
+            {
+                "contenido": "No compila",
+                "correcta": false
+            },
+            {
+                "contenido": "RuntimeException",
+                "correcta": false
+            },
+            {
+                "contenido": "NumberFormatException",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "titulo": "¿Cuál es el resultado de esta asignación? <br> int resultado = 15 - 15",
+        "explicacionRespuesta": "<p>Aqui va una ayuda</p>",
+        "respuestas": [
+            {
+                "contenido": "0",
+                "correcta": true
+            },
+            {
+                "contenido": "No compila",
+                "correcta": false
+            },
+            {
+                "contenido": "RuntimeException",
+                "correcta": false
+            },
+            {
+                "contenido": "NumberFormatException",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "titulo": "¿Cuál es el resultado de esta asignación? <br> int resultado = 15 - 1",
+        "explicacionRespuesta": "<p>Aqui va una ayuda</p>",
+        "respuestas": [
+            {
+                "contenido": "14",
+                "correcta": true
+            },
+            {
+                "contenido": "No compila",
+                "correcta": false
+            },
+            {
+                "contenido": "RuntimeException",
+                "correcta": false
+            },
+            {
+                "contenido": "NumberFormatException",
+                "correcta": false
             }
         ]
     }
 ]
-    

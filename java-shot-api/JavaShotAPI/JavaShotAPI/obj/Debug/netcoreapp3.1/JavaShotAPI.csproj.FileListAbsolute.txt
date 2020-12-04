@@ -134,4 +134,3 @@ C:\Users\javie\Documents\Universidad\Gamificacion y Programacion Funcional\proye
 C:\Users\javie\Documents\Universidad\Gamificacion y Programacion Funcional\proyecto-final\javashot\java-shot-api\JavaShotAPI\JavaShotAPI\obj\Debug\netcoreapp3.1\JavaShotAPI.dll
 C:\Users\javie\Documents\Universidad\Gamificacion y Programacion Funcional\proyecto-final\javashot\java-shot-api\JavaShotAPI\JavaShotAPI\obj\Debug\netcoreapp3.1\JavaShotAPI.pdb
 C:\Users\javie\Documents\Universidad\Gamificacion y Programacion Funcional\proyecto-final\javashot\java-shot-api\JavaShotAPI\JavaShotAPI\obj\Debug\netcoreapp3.1\JavaShotAPI.genruntimeconfig.cache
-C:\Users\javie\Documents\Universidad\Gamificacion y Programacion Funcional\proyecto-final\javashot\java-shot-api\JavaShotAPI\JavaShotAPI\obj\Debug\netcoreapp3.1\JavaShotAPI.csprojAssemblyReference.cache
