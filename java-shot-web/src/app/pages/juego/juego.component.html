@@ -1,3 +1,33 @@
-<p>juego works!</p>
-<button (click)="cambiarEstado()">Cambiar estado</button>
-<button (click)="cambiarEstadoPorSegundaVez()">Cambiar estado por segunda vez</button>
+<section class="p-4 animate__animated animate__fadeIn">
+    <div    class="position-card-juego animate__animated" 
+            *ngIf="preguntaActual"
+            >
+        <ul class="list-group col-md-12 animate__heartBeat"
+            id="ulListGroup"
+            #ulListGroup>
+            <li 
+                class="list-group-item active d-flex justify-content-between align-items-center">
+                <span [innerHTML]="preguntaActual.titulo"></span>
+                <span class="animate__zoomInUp badge badge-primary badge-pill"
+                      *ngIf="preguntaActual.contestada"
+                        name="siguiente"
+                        (click)="siguientePregunta()">
+                    Siguiente
+                </span>
+            </li>
+
+            <li *ngFor="let respuesta of preguntaActual.respuestas"
+                class="list-group-item list-group-item-action list-group-item-light"
+                [class.list-group-item-light]="!preguntaActual.contestada && respuesta.respuestaID === partidaState.respuestaElegidaID"
+                [class.list-group-item-success]="preguntaActual.contestadaCorrectamente && respuesta.respuestaID === partidaState.respuestaElegidaID"
+                [class.list-group-item-danger]="!preguntaActual.contestadaCorrectamente && respuesta.respuestaID === partidaState.respuestaElegidaID"
+                (click)="seleccionarRespuesta(respuesta)">{{ respuesta.contenido }}</li>
+            <li class="list-group-item list-group-item-action list-group-item-light"
+                (click)="mostrarAyuda()">
+                <span   class="animate__zoomInUp badge badge-primary badge-pill">
+                        Ayuda
+                </span>
+            </li>
+        </ul>
+    </div>
+</section>

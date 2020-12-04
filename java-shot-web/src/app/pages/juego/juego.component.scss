@@ -1,0 +1,29 @@
+section {
+    min-height: 100vh;
+    background-image: linear-gradient(
+        rgba(83, 129, 160, 0.5),
+        rgba(231, 111, 0, 0.2)),
+    url(/assets/images/program.png);
+    position: relative;
+}
+h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+}
+.card-juego {
+    width: 50%;
+    margin: 0 auto;
+}
+.position-card-juego {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+ul li {
+    cursor: pointer;
+    transition: all .3s;
+}

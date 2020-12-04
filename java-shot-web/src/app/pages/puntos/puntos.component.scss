@@ -1,0 +1,17 @@
+section{
+    background: var(--color-background);
+    width: 100%;
+    min-height: 92vh;
+}
+
+.puntos {
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: -60px;
+    font-size: 72px;
+    font-weight: 600;
+}
+.card-lista {
+    max-height: 525.6px;
+    overflow-y: auto;
+}

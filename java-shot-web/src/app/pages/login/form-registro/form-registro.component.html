@@ -1,0 +1,61 @@
+<div class="card" style="width: 100%;">
+    <div class="card-header  text-center">
+        Registro
+    </div>
+    <form   [formGroup]="registerForm" 
+            (ngSubmit)="guardar()"
+            class="p-4">
+        <div class="form-group">
+            <label>Nombre</label>
+            <input type="text" 
+                    class="form-control" 
+                    placeholder="Nombre..."
+                    formControlName="nombre"
+                    name="nombre">
+        </div>
+        <div class="form-group">
+            <label>Apellido</label>
+            <input type="text" 
+                    class="form-control" 
+                    placeholder="Apellido..."
+                    formControlName="apellido"
+                    name="apellido">
+        </div>
+        <div class="form-group">
+            <label>E-Mail</label>
+            <input type="email" 
+                    class="form-control" 
+                    placeholder="E-mail..."
+                    formControlName="email"
+                    name="email">
+        </div>
+
+        <div class="form-group">
+            <label>Contraseña</label>
+            <input type="password" 
+                    class="form-control" 
+                    placeholder="Contraseña..."
+                    formControlName="password"
+                    name="password">
+        </div>
+
+        <button type="submit" 
+                class="btn btn-success mr-2 col-md-12 text-center"
+                id="btn-login" 
+                [disabled]="registerForm.invalid"
+                *ngIf="!loading">
+                <i class="fa fa-save"></i>
+                Registrarse
+        </button>
+
+        <button type="button" 
+                class="btn btn-success mr-2 col-md-12 text-center"
+                id="btn-login" 
+                [disabled]="true"
+                *ngIf="loading">
+                <i class="fa fa-spin fa-sync"></i>
+                Cargando...
+        </button>
+        <a routerLink='/login' class="btn btn-link">¿Ya tienes cuenta? Inicia sesión aqui</a>
+    </form>
+</div>

@@ -1,0 +1,47 @@
+section{
+    background: var(--color-background);
+    // background-image: linear-gradient(
+    //     rgba(83, 129, 160, 0.5),
+    //     rgba(231, 111, 0, 0.3));
+    // // url(/assets/images/java-blanco-difuminado.png);
+    // background-repeat: no-repeat;;
+    // background-position: right;
+    width: 100%;
+    min-height: 92vh;
+}
+
+.card-header {
+    font-weight: bold;
+}
+p {
+    text-indent: justify;
+}
+#btn-jugar{
+    background: var(--color-secondary);
+    border-color: var(--color-secondary);;
+    width: 40%;
+    color: white;
+    outline-color: var(--color-secondary);;
+    outline: none !important;
+    height: 55px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    transition: all .3s;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+#btn-login{
+    background: var(--color-tertiary);
+}
+#btn-registro{
+    background: var(--color-yellow);
+}
+h1{
+    color: var(--color-black);
+}
+.img-java{
+    max-width: 80%;
+    max-height: 60px;
+}

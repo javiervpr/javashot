@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+<section class="p-4 animate__animated animate__fadeInUp">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <h1 class="display-4">Tomate un Shot de ¡Java!</h1>
+            <p class="lead">Una serie de preguntas cortas diarias pueden ayudarte a llegar un nuevo nivel como programador Java</p>
+            <button id="btn-jugar" 
+                    (click)="mostrarAlert()"
+                    class="btn">¡JUGAR!</button>
+        </div>
+    </div>
+
+    <div class="row" style="display: flex; align-self: center; justify-content: space-around;">
+        <div class="col-md-5 card" style="width: 70%;">
+            <h4 class="mt-2">
+                <span>
+                    Pequeños pasos para alcanzar grandes objetivos
+                </span>
+                <img src="/assets/images/java-icon.png" alt="java icono" class="img-java">
+            </h4>
+            <p style="width: 80%;">
+                JavaShot llega para ayudarte a reafirmar tus conocimientos en uno de los lenguajes de programación más populares del mundo ¡Java!
+            </p>
+            <p style="width: 80%;">
+                En cada partida podrás acumular puntos y comparar tu historial con tus amigos.
+            </p>
+        </div>
+        <div class="col-md-5 ml-4 text-right card">
+            <img src="/assets/images/javaclass.png" alt="Imagen java class">
+        </div>
+    </div>
+</section>

@@ -1,0 +1,22 @@
+section {
+    min-height: 100vh;
+    background-image: linear-gradient(
+        rgba(83, 129, 160, 0.5),
+        rgba(231, 111, 0, 0.3)),
+    url(/assets/images/program.png);
+}
+h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+}
+.img-java{
+    max-height: 100px;
+    max-width: 100%;
+}
+.card-registro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;
+}

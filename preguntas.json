@@ -1,0 +1,216 @@
+
+[
+    // PREGUNTA #1 ====================================================
+    {
+        "Titulo": "¿Cuál es el resultado de esta asignación? <br> int resultado = 5 - 8",
+        "Respuestas": [
+            {
+                "Contenido": "-3",
+                "Correcta": true
+            },
+            {
+                "Contenido": "3",
+                "Correcta": false
+            },
+            {
+                "Contenido": "RuntimeException",
+                "Correcta": false
+            },
+            {
+                "Contenido": "NumberFormatException",
+                "Correcta": false
+            }
+        ]
+    },
+    // PREGUNTA #2 ====================================================
+    {
+        "Titulo": "¿En el lenguaje de programación Java se puede aplicar polimorfismo?",
+        "Respuestas": [
+            {
+                "Contenido": "Verdadero",
+                "Correcta": true
+            },
+            {
+                "Contenido": "Falso",
+                "Correcta": false
+            }
+        ]
+    },
+    // PREGUNTA #3 ====================================================
+    {
+        "Titulo": "3 ¿Cuál es el resultado de este metodo? <br> <>",
+        "Respuestas": [
+            {
+                "Contenido": "-3",
+                "Correcta": false
+            },
+            {
+                "Contenido": "3",
+                "Correcta": false
+            },
+            {
+                "Contenido": "RuntimeException",
+                "Correcta": false
+            },
+            {
+                "Contenido": "NumberFormatException",
+                "Correcta": true
+            }
+        ]
+    },
+    // PREGUNTA #4 ====================================================
+    {
+        "Titulo": "4 ¿Cuál es el resultado de? <br> int resultado = 5 - 8",
+        "Respuestas": [
+            {
+                "Contenido": "-3",
+                "Correcta": false
+            },
+            {
+                "Contenido": "3",
+                "Correcta": false
+            },
+            {
+                "Contenido": "RuntimeException",
+                "Correcta": true
+            },
+            {
+                "Contenido": "NumberFormatException",
+                "Correcta": false
+            }
+        ]
+    },
+    // PREGUNTA #5 ====================================================
+    {
+        "Titulo": "5 ¿Cuál es el resultado de esta asignación? <br> int resultado = 5 - 8",
+        "Respuestas": [
+            {
+                "Contenido": "-3",
+                "Correcta": true
+            },
+            {
+                "Contenido": "3",
+                "Correcta": false
+            },
+            {
+                "Contenido": "RuntimeException",
+                "Correcta": false
+            },
+            {
+                "Contenido": "NumberFormatException",
+                "Correcta": false
+            }
+        ]
+    },
+    // PREGUNTA #6 ====================================================
+    {
+        "Titulo": "6 ¿Cuál es el resultado de esta asignación? <br> int resultado = 5 - 8",
+        "Respuestas": [
+            {
+                "Contenido": "-3",
+                "Correcta": true
+            },
+            {
+                "Contenido": "3",
+                "Correcta": false
+            },
+            {
+                "Contenido": "RuntimeException",
+                "Correcta": false
+            },
+            {
+                "Contenido": "NumberFormatException",
+                "Correcta": false
+            }
+        ]
+    },
+    // PREGUNTA #7 ====================================================
+    {
+        "Titulo": "7 ¿Cuál es el resultado de esta asignación? <br> int resultado = 5 - 8",
+        "Respuestas": [
+            {
+                "Contenido": "-3",
+                "Correcta": true
+            },
+            {
+                "Contenido": "3",
+                "Correcta": false
+            },
+            {
+                "Contenido": "RuntimeException",
+                "Correcta": false
+            },
+            {
+                "Contenido": "NumberFormatException",
+                "Correcta": false
+            }
+        ]
+    },
+    // PREGUNTA #8 ====================================================
+    {
+        "Titulo": "8 ¿Cuál es el resultado de esta asignación? <br> int resultado = 5 - 8",
+        "Respuestas": [
+            {
+                "Contenido": "-3",
+                "Correcta": false
+            },
+            {
+                "Contenido": "3",
+                "Correcta": false
+            },
+            {
+                "Contenido": "RuntimeException",
+                "Correcta": true
+            },
+            {
+                "Contenido": "NumberFormatException",
+                "Correcta": false
+            }
+        ]
+    },
+    // PREGUNTA #9 ====================================================
+    {
+        "Titulo": "9 ¿Cuál es el resultado de esta asignación? <br> int resultado = 5 - 8",
+        "Respuestas": [
+            {
+                "Contenido": "-3",
+                "Correcta": false
+            },
+            {
+                "Contenido": "3",
+                "Correcta": false
+            },
+            {
+                "Contenido": "RuntimeException",
+                "Correcta": true
+            },
+            {
+                "Contenido": "NumberFormatException",
+                "Correcta": false
+            }
+        ]
+    },
+    // PREGUNTA #10 ====================================================
+    {
+        "Titulo": "10 ¿Cuál es el METODO de esta asignación?",
+        "Respuestas": [
+            {
+                "Contenido": "-3",
+                "Correcta": true
+            },
+            {
+                "Contenido": "3",
+                "Correcta": false
+            },
+            {
+                "Contenido": "RuntimeException",
+                "Correcta": false
+            },
+            {
+                "Contenido": "NumberFormatException",
+                "Correcta": false
+            }
+        ]
+    }
+]
+    

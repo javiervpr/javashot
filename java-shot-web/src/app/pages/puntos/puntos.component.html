@@ -1,0 +1,47 @@
+<app-navbar></app-navbar>
+<section class="p-4 animate__animated animate__fadeInUp">
+    <h2>Mejores lugares</h2>
+    <hr>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card col-md-11">
+                <h3 class="text-center m-4">Tu información</h3>
+                <img src="/assets/images/user.svg" alt="Imagen usuario" height="250">
+                <div class="p-4">
+                    <p>
+                        <b>Nombre: </b> {{usuarioEnSesion.nombres}} {{usuarioEnSesion.apellidos}}
+                    </p>
+                    <p>
+                        <b>Email: </b> {{usuarioEnSesion.email}}
+                    </p>
+                    <p *ngIf="puntoPersona">
+                        <b>Puntos totales acumulados  </b>  <span class="puntos">{{puntoPersona.puntos}}</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" style="padding: 0 2px !important;">
+            <div class="card card-lista col-md-11"  style="padding: 0px !important;">
+                <table class="table">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Puntos</th>
+                        </tr>
+                    </thead>
+                    <tbody *ngIf="listaDePuntosAll">
+                        <tr *ngFor="let persona of listaDePuntosAll; let i = index"
+                            [class.table-primary]="i === 0"
+                            [class.table-info]="i === 1"
+                            [class.table-warning]="i === 2">
+                            <th scope="row">{{i + 1}}</th>
+                            <td>{{persona.nombreUsuario}} {{persona.apellidoUsuario}}</td>
+                            <td class="text-center">{{persona.puntos}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
